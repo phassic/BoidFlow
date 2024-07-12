@@ -1,5 +1,4 @@
-**Dynamic Boid Simulation
-**
+**Dynamic Boid Simulation**
 This project is a dynamic Boid simulation created using Pygame. Boids are autonomous agents that simulate the flocking behavior seen in birds, fish, and other animals. The simulation features interactive sliders that allow users to adjust the weights of various behaviors such as alignment, cohesion, separation, attraction to food, boundary avoidance, and more.
 
 **Features**
@@ -11,31 +10,27 @@ Boundary Avoidance: Boids avoid the edges of the screen.
 Trail Effect: Boids leave trails for a visual effect.
 Spatial Partitioning: Optimized performance using a grid for spatial partitioning.
 
-**Prerequisites
-**
+**Prerequisites**
+
 Python 3.x
 Pygame
 
-**Installation
-**
+**Installation**
 Clone the repository:
 
 git clone https://github.com/phassic/dynamic-boid-simulation.git
 
 cd dynamic-boid-simulation
 
-**Install Pygame:
-**
+**Install Pygame:**
 pip install pygame
 
 **Usage**
-
 Run the simulation:
 
 python3 boid_simulation.py
 
-**Interacting with the Simulation:
-**
+**Interacting with the Simulation:**
 Click on the simulation area to add food positions.
 Adjust the sliders at the bottom of the window to change the weights of various behaviors.
 Alignment: Aligns boids with their neighbors.
@@ -46,8 +41,7 @@ Boundary Avoidance: Keeps boids within the screen boundaries.
 Current: Simulates the effect of a current on the boids' movement.
 Memory: Influences boids to move away from their previous positions.
 
-**Code Overview
-**
+**Code Overview**
 Initialization and Setup
 Pygame Initialization: Initializes Pygame modules.
 Display Setup: Creates the display window with a simulation area and a UI area.
@@ -65,11 +59,11 @@ Cleanup
 Pygame Quit: Cleans up Pygame resources upon exiting the main loop.
 Example
 
-License
+**License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 
 Pygame community for providing an  library for game development.
 Craig Reynolds for the original Boid algorithm.

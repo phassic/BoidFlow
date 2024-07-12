@@ -15,26 +15,24 @@ Prerequisites
 
 Python 3.x
 Pygame
+
 Installation
 
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/dynamic-boid-simulation.git
+git clone https://github.com/phassic/dynamic-boid-simulation.git
 cd dynamic-boid-simulation
+
 Install Pygame:
 
-bash
-Copy code
 pip install pygame
+
 Usage
 
 Run the simulation:
 
-bash
-Copy code
-python boid_simulation.py
+python3 boid_simulation.py
+
 Interacting with the Simulation:
 
 Click on the simulation area to add food positions.
@@ -46,6 +44,7 @@ Attraction: Attracts boids towards food positions.
 Boundary Avoidance: Keeps boids within the screen boundaries.
 Current: Simulates the effect of a current on the boids' movement.
 Memory: Influences boids to move away from their previous positions.
+
 Code Overview
 
 Initialization and Setup
@@ -71,8 +70,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Acknowledgments
 
-Pygame community for providing an excellent library for game development.
+Pygame community for providing an  library for game development.
 Craig Reynolds for the original Boid algorithm.
+
 Contributing
 
 Feel free to submit issues, fork the repository, and send pull requests. For major changes, please open an issue first to discuss what you would like to change.

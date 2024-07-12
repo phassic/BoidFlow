@@ -21,6 +21,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/phassic/dynamic-boid-simulation.git
+
 cd dynamic-boid-simulation
 
 Install Pygame:

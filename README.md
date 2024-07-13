@@ -24,6 +24,7 @@ Spatial Partitioning: Optimized performance using a grid for spatial partitionin
 **Prerequisites**
 
 Python 3.x
+
 Pygame
 
 **Installation**

@@ -33,7 +33,7 @@ Clone the repository:
 
 `git clone https://github.com/phassic/dynamicboidsimulation.git`
 
-`cd dynamicboidsimulation`
+`cd DynamicBoidSimulation`
 
 **Install Pygame:**
 

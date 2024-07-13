@@ -110,3 +110,5 @@ Craig Reynolds for the original Boid algorithm.
 Contributing
 
 Feel free to submit issues, fork the repository, and send pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+Contact me on discord at stereo_lab 

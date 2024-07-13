@@ -1,6 +1,10 @@
 
 
 
+https://github.com/user-attachments/assets/484e8051-acd3-4eec-b99b-3bac944fe2eb
+
+
+
 **Dynamic Boid Simulation**
 
 This project is a dynamic Boid simulation created using Pygame. Boids are autonomous agents that simulate the flocking behavior seen in birds, fish, and other animals. The simulation features interactive sliders that allow users to adjust the weights of various behaviors such as alignment, cohesion, separation, attraction to food, boundary avoidance, and more.

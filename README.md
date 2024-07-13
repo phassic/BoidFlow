@@ -36,6 +36,7 @@ git clone https://github.com/phassic/dynamicboidsimulation.git
 cd dynamicboidsimulation
 
 **Install Pygame:**
+
 pip install pygame
 
 **Usage**

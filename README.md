@@ -31,19 +31,19 @@ Pygame
 
 Clone the repository:
 
-git clone https://github.com/phassic/dynamicboidsimulation.git
+_git clone https://github.com/phassic/dynamicboidsimulation.git_
 
-cd dynamicboidsimulation
+_cd dynamicboidsimulation_
 
 **Install Pygame:**
 
-pip install pygame
+_pip install pygame_
 
 **Usage**
 
 Run the simulation:
 
-python3 boid_simulation.py
+_python3 boid_simulation.py_
 
 **Interacting with the Simulation:**
 
@@ -51,24 +51,24 @@ Click on the simulation area to add food positions.
 
 Adjust the sliders at the bottom of the window to change the weights of various behaviors.
 
-Alignment: Aligns boids with their neighbors.
+- Alignment: Aligns boids with their neighbors.
 
-Cohesion: Moves boids towards the center of mass of their neighbors.
+- Cohesion: Moves boids towards the center of mass of their neighbors.
 
-Separation: Moves boids away from each other to avoid crowding.
+- Separation: Moves boids away from each other to avoid crowding.
 
-Attraction: Attracts boids towards food positions.
+- Attraction: Attracts boids towards food positions.
 
-Boundary Avoidance: Keeps boids within the screen boundaries.
+- Boundary Avoidance: Keeps boids within the screen boundaries.
 
-Current: Simulates the effect of a current on the boids' movement.
+- Current: Simulates the effect of a current on the boids' movement.
 
-Memory: Influences boids to move away from their previous positions.
+- Memory: Influences boids to move away from their previous positions.
 
 
 **Code Overview**
 
-Initialization and Setup
+_Initialization and Setup_
 
 Pygame Initialization: Initializes Pygame modules.
 
@@ -76,13 +76,13 @@ Display Setup: Creates the display window with a simulation area and a UI area.
 
 Colors: Defines various colors used in the simulation.
 
-Boid and Slider Classes
+_Boid and Slider Classes_
 
 Slider Class: Manages interactive sliders for adjusting behavior weights.
 
 Boid Class: Represents individual boids with properties and behaviors.
 
-Main Game Loop
+_Main Game Loop_
 
 Creating Boids: Initializes the boids.
 
@@ -94,11 +94,7 @@ UI Sliders: Creates sliders for adjusting behavior weights.
 
 Main Loop: Handles events, updates boids, manages food interactions, and renders the UI.
 
-Cleanup
-
 Pygame Quit: Cleans up Pygame resources upon exiting the main loop.
-
-Example
 
 **License**
 
@@ -109,7 +105,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Pygame community for providing an  library for game development.
 Craig Reynolds for the original Boid algorithm.
 
-Contributing
+**Contributing**
 
 Feel free to submit issues, fork the repository, and send pull requests. For major changes, please open an issue first to discuss what you would like to change.
 

@@ -46,6 +46,7 @@ Run the simulation:
 python3 boid_simulation.py
 
 **Interacting with the Simulation:**
+
 Click on the simulation area to add food positions.
 
 Adjust the sliders at the bottom of the window to change the weights of various behaviors.
@@ -74,6 +75,7 @@ Pygame Initialization: Initializes Pygame modules.
 Display Setup: Creates the display window with a simulation area and a UI area.
 
 Colors: Defines various colors used in the simulation.
+
 Boid and Slider Classes
 
 Slider Class: Manages interactive sliders for adjusting behavior weights.

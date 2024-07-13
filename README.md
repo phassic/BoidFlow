@@ -31,19 +31,19 @@ Spatial Partitioning: Optimized performance using a grid for spatial partitionin
 
 Clone the repository:
 
-'git clone https://github.com/phassic/dynamicboidsimulation.git'
+`git clone https://github.com/phassic/dynamicboidsimulation.git`
 
-'cd dynamicboidsimulation'
+`cd dynamicboidsimulation`
 
 **Install Pygame:**
 
-'pip install pygame'
+`pip install pygame`
 
 **Usage**
 
 Run the simulation:
 
-'python3 boid_simulation.py'
+`python3 boid_simulation.py`
 
 **Interacting with the Simulation:**
 

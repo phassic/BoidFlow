@@ -16,7 +16,8 @@ BACKGROUND_COLOR = (0, 0, 20)
 TRAIL_COLOR = (0, 0, 30)
 UI_BACKGROUND_COLOR = (30, 30, 30)
 SLIDER_COLOR = (200, 200, 200)
-TEXT_COLOR = (255, 255, 255)
+HANDLE_COLOR = (100, 100, 100)
+TEXT_COLOR = (0, 0, 0)
 BOID_COLORS = [
     (255, 102, 102),  # Light Red
     (255, 178, 102),  # Light Orange
@@ -54,11 +55,11 @@ class Slider:
                 self.value = self.min_val + (self.handle_rect.x - self.rect.x) / self.rect.width * (self.max_val - self.min_val)
 
     def draw(self, screen):
-        pygame.draw.rect(screen, SLIDER_COLOR, self.rect)
-        pygame.draw.rect(screen, TEXT_COLOR, self.handle_rect)
+        pygame.draw.rect(screen, SLIDER_COLOR, self.rect, border_radius=10)
+        pygame.draw.rect(screen, HANDLE_COLOR, self.handle_rect, border_radius=10)
         font = pygame.font.SysFont(None, 24)
         label_surface = font.render(f"{self.label}: {self.value:.2f}", True, TEXT_COLOR)
-        screen.blit(label_surface, (self.rect.x, self.rect.y - 25))
+        screen.blit(label_surface, (self.rect.x + 5, self.rect.y + (self.rect.height // 2 - label_surface.get_height() // 2)))
 
 # Boid class
 class Boid:
@@ -275,7 +276,7 @@ sliders = [
     Slider(640, height + 10, 200, 20, 0.0, 5.0, 1.5, "Attraction"),
     Slider(850, height + 10, 200, 20, 0.0, 5.0, 3.0, "Boundary Avoidance"),
     Slider(1060, height + 10, 200, 20, 0.0, 5.0, 0.3, "Current"),
-    Slider(10, height + 40, 200, 20, 0.0, 5.0, 0.5, "Memory")
+    Slider(10, height + 50, 200, 20, 0.0, 5.0, 0.5, "Memory")
 ]
 
 # Main game loop
@@ -331,4 +332,3 @@ while running:
     clock.tick(60)
 
 pygame.quit()
-

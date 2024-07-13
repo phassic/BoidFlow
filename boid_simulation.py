@@ -30,7 +30,7 @@ BOID_COLORS = [
 ]
 
 # Grid size for spatial partitioning
-grid_size = 1000
+grid_size = 120
 
 # UI Slider class
 class Slider:
